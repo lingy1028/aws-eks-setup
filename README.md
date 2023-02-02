@@ -1,4 +1,13 @@
-# Cluster dltk-cluster122
+# DSDL (DLTK) App and new EKS API.
+
+## Instructions to perform either a fresh Install or perform an Upgrade
+
+## :NOTE: Create a backup of your existing K8s/contianer environment.
+
+
+## When in doubt, please reach out to your account team or dev team via fdse@splunk.com
+
+# Sample Cluster used: dltk-cluster122
 The cluster is running on west-1 with name dltk-cluster122
 https://us-west-1.console.aws.amazon.com/eks/home?region=us-west-1#/clusters
 
@@ -343,10 +352,12 @@ Thu Feb 2 17:22:00 UTC 2023
 Thu Feb 2 17:22:05 UTC 2023
 ```
 
+3.0 Validate the example use-case in DSDL (DLTK) App
 
 
 
 
+# For help, please create an issue or reach out to us via fdse@splunk.com
 
 
 
