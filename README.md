@@ -25,16 +25,8 @@ Client Version: version.Info{Major:"1", Minor:"22+", GitVersion:"v1.22.17-eks-49
 Server Version: version.Info{Major:"1", Minor:"22+", GitVersion:"v1.22.17-eks-e0e89e9", GitCommit:"4254aea90beb594abb9244689f9743ec2006e71c", GitTreeState:"clean", BuildDate:"2022-12-20T14:30:25Z", GoVersion:"go1.16.15", Compiler:"gc", Platform:"linux/amd64"}
 ```
 
-**Note**: getting error in VScode Kubenetes extension. Error message
-```
-error: exec plugin: invalid apiVersion "client.authentication.k8s.io/v1alpha1
-```
 
-### 2.1 Wrong way to install kubectl
-- used `sudo snap install kubectl --classic` to install kubectl
-- Got `error: exec plugin: invalid apiVersion "client.authentication.k8s.io/v1alpha1` error when use kubectl
-
-### 2.2 Correct way to install kubectl
+### 2.2 Install kubectl (Make sure you choose the correct version)
 - follow steps [here](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html) to install the kubectl for `Kubernetes 1.22`.
 - this version fix the above apiVersion error
 - BUT this error still remain in VScode Kubenetes extenstion.
